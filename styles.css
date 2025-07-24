@@ -386,8 +386,12 @@ body {
 /* Responsive Design */
 @media (max-width: 768px) {
     .container {
-        margin: 10px;
-        padding: 15px;
+        margin: 5px;
+        padding: 8px;
+    }
+    
+    .header {
+        padding: 25px 15px;
     }
     
     .header-content {
@@ -402,6 +406,7 @@ body {
     
     .contact-item {
         justify-content: center;
+        font-size: 1rem;
     }
     
     .name {
@@ -412,13 +417,38 @@ body {
         font-size: 1.3rem;
     }
     
+    .main-content {
+        padding: 0 5px;
+    }
+    
     .section {
-        padding: 20px;
+        padding: 15px;
+        margin-bottom: 20px;
+    }
+    
+    .section-title {
+        font-size: 1.6rem;
+        margin-bottom: 20px;
+    }
+    
+    .job {
+        padding: 15px;
+        margin-bottom: 20px;
     }
     
     .job-header {
         flex-direction: column;
         align-items: flex-start;
+    }
+    
+    .job-description {
+        font-size: 1rem;
+        text-align: left;
+    }
+    
+    .summary-text {
+        font-size: 1rem;
+        text-align: left;
     }
     
     .two-column {
@@ -434,9 +464,32 @@ body {
     .skills-grid {
         grid-template-columns: 1fr;
     }
+    
+    .skill-category {
+        padding: 15px;
+    }
 }
 
 @media (max-width: 480px) {
+    .container {
+        margin: 2px;
+        padding: 5px;
+    }
+    
+    .header {
+        padding: 20px 10px;
+        margin-bottom: 15px;
+    }
+    
+    .main-content {
+        padding: 0 2px;
+    }
+    
+    .section {
+        padding: 12px;
+        margin-bottom: 15px;
+    }
+    
     .name {
         font-size: 1.8rem;
     }
@@ -446,15 +499,36 @@ body {
     }
     
     .experience {
-        font-size: 1rem;
+        font-size: 0.95rem;
     }
     
     .section-title {
-        font-size: 1.5rem;
+        font-size: 1.4rem;
+        margin-bottom: 15px;
     }
     
     .job-title {
         font-size: 1.2rem;
+    }
+    
+    .job {
+        padding: 12px;
+    }
+    
+    .job-description {
+        font-size: 0.95rem;
+    }
+    
+    .summary-text {
+        font-size: 0.95rem;
+    }
+    
+    .skill-category {
+        padding: 12px;
+    }
+    
+    .contact-item {
+        font-size: 0.9rem;
     }
 }
 
